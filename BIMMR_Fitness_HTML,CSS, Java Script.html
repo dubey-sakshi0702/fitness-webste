@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate, max-age=0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3395491145092090"
+     crossorigin="anonymous"></script>
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin:-50px;
+  margin-bottom:1px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right:20px;
+  margin-top:10px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.logo-image{
+
+width: 360px;
+    height: 48px;
+	overflow:hidden;
+    border-radius: 10%;
+    margin-top: -6px;
+	}
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 20%;
+  padding: 5px 0;
+  margin:0;
+}
+
+.left h2 {
+  padding-left: 8px;
+  width:220px;
+}
+
+/* mid column (page content) */
+.mid {
+  flex: 65%;
+  padding: 15px;
+}
+.left {
+  flex: 15%;
+  padding: 15px;
+}
+/* Style the search box */
+#mySearch {
+  width:100%;
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width:200 px;
+  border-radius: 30px;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  width:220px;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+  width:220px;
+   border-radius: 30px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+body { 
+  margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.cal {
+ border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 360px;
+  height: 250px;
+}
+footer{
+text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+  
+
+</style>
+
+</head>
+<body>
+<div class="topnav">
+<a class="navbar-brand" href="index.html">
+      <div class="logo-image">
+            <img src="pic1.jpg" class="img-fluid">
+			
+      </div>
+	  </a>
+  <a class="active" href="index.html">Home</a>
+  <a href="default.html#contact">Contact</a>
+  <a href="default.html#about">About</a>
+  
+</div>
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <h2>Menu</h2>
+    <input type="text" id="mySearch" onkeyup="menusearchFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="index.html">Body Mass Index (BMI)</a></li>
+      <li><a href="bmr.html">Body Metabolic Rate (BMR)</a></li>
+    </ul>
+  </div>
+  
+  <div class="mid" >
+    <h2>Basal metabolic rate</h2> 
+<p>Even when resting, your body burns calories by performing basic functions to sustain life, such as:</p>
+<p>breathing</p>
+<p>circulation</p>
+<p>nutrient processing</p>
+<p>cell production</p>
+<p>Basal metabolic rate is the number of calories your body needs to accomplish its most basic (basal) life-sustaining functions.</p>
+<p>Basal metabolic rate vs. resting metabolic rate</p>
+<p>Basal metabolic rate (BMR) is often used interchangeably with resting metabolic rate (RMR). While BMR is a minimum number of calories required for basic functions at rest, RMR — also called resting energy expenditure (REE) — is the number of calories that your body burns while it’s at rest.</p>
+<p>Although BMR and RMR slightly differ from each other, your RMR should be an accurate estimate of your BMR.</p>
+<p>How to estimate your BMR </p>
+<p>One popular way to estimate BMR is through the Harris-Benedict formula, which takes into account weight, height, age, and gender.</p>
+<h4>Women:</h4>
+<h5>BMR = 655 + (9.6 × weight in kg) + (1.8 × height in cm) – (4.7 × age in years)</h5>
+<h4>Men:</h4>
+<h5>BMR = 66 + (13.7 × weight in kg) + (5 × height in cm) – (6.8 × age in years) </h5>
+<h2>BMR CALCULATOR</h2>
+<div class="cal">
+<label for="age">AGE</label><input type="text" id="age"/>
+<select name="ge" id="ge"></br></br>
+  <option value="1">M</option>
+    <option value="2">F</option>
+</select>
+<label for="height">HEIGHT</label><input type="text" id="height"/>
+  <select name="he" id="he">
+  <option value="1">cms</option>
+    <option value="2">inches</option>
+
+</select>
+</br></br>
+<label for="weight">WEIGHT</label><input type="text" id="weight"/>
+<select name="we" id="we">
+<option value="1">kgs</option>
+    <option value="2">pounds</option>
+
+</select></br></br>
+<button  class="button"onclick="cal()">Submit</button>
+<h1 id="answer"></h1>
+</div>
+
+  </div>
+  <div class="left"><h1></h1></div>
+</div>
+
+<footer>
+  <p><a href="default.html#PP">Priacy Policy</a></p>
+  <p><a href="mailto:dsakshi1995.com">Contact Us</a></p>
+</footer>
+
+<script>
+function menusearchFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}  
+function cal()
+{ 
+//e.preventDefault();
+var age=parseFloat(document.getElementById("age").value);
+var weight=parseFloat(document.getElementById("weight").value);
+var height=parseFloat(document.getElementById("height").value);
+selectElement = document.querySelector('#we');
+   var w= parseInt(selectElement.value);
+if(w==2)
+weight*=0.453592;
+ selectElement = document.querySelector('#he');
+        output = selectElement.value;
+var h= parseInt(selectElement.value);
+if(h==2)
+height*=2.54;
+selectElement = document.querySelector('#ge');
+   var g= parseInt(selectElement.value);
+var cal=655+9.6*weight+1.8*height - 4.7*age;
+if(g==1)
+cal=66+(13.7*weight)+(5*height)-(6.8*age);
+
+document.getElementById("answer").innerHTML='Your BMI is ' + cal;
+}
+</script>
+
+
+</body>
+</html>
